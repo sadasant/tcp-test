@@ -2,7 +2,12 @@ require 'simplehttp'
 
 class Main < Device
   def self.call
-    puts "Hello CloudWalk!"
+    puts "TCP test!"
+    puts "Press to perform TCP"
+    getc
+    response = TcpTest.perform
+    puts "Response #{response}"
+    puts "Press to exit"
     getc
     true
   end
@@ -13,6 +18,14 @@ class Main < Device
 
   def self.version
     "0.0.1"
+  end
+end
+
+class TcpTest
+  def self.perform
+    socket = Device::Network.socket.call
+    socket.write("TEST 1234567890\n")
+    socket.read
   end
 end
 
