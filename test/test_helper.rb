@@ -5,6 +5,10 @@ $LOAD_PATH.unshift "./#{APP_NAME}"
 require 'da_funk'
 
 DaFunk::Test.configure do |t|
-  t.root_path = ROOT_PATH
+  t.root_path      = ROOT_PATH
+  t.name           = APP_NAME
+  t.logical_number = "003"
+  t.serial         = "0000000003"
 end
 
+Device::Setting.to_staging!
