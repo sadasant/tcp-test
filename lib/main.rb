@@ -3,8 +3,9 @@ require 'simplehttp'
 class Main < Device
   def self.call
     puts "TCP test!"
-    puts "Press to perform TCP"
+    puts "Press to start ..."
     getc
+    puts "Connecting ..."
     response = TcpTest.perform
     puts "Response #{response}"
     puts "Press to exit"
