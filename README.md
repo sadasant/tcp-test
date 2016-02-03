@@ -14,13 +14,13 @@ it is our honor :bowtie:
 
 ## Index
 
-- [Index](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#index)
-- [What do I have here?](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#what-do-i-have-here)
-- [How do I use this?](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#how-do-i-use-this)
-- [Prepare the TCP application](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#prepare-the-tcp-application)
-- [Running the TCP application](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#running-the-tcp-application)
-- [Testing](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#testing)
-- [I would like to contribute](https://gist.github.com/sadasant/971d003cbcb7107d9b3f#i-would-like-to-contribute)
+- [Index](#index)
+- [What do I have here?](#what-do-i-have-here)
+- [How do I use this?](#how-do-i-use-this)
+- [Prepare the TCP application](#prepare-the-tcp-application)
+- [Running the TCP application](#running-the-tcp-application)
+- [Testing](#testing)
+- [I would like to contribute](#i-would-like-to-contribute)
 
 ## What do I have here?
 
